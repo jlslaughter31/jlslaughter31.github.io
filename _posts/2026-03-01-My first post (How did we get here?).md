@@ -36,7 +36,7 @@ This led me to investigate reverse DNS lookups and the `-n` flag in Netcat.
 
 Understanding why `nc -n` avoids DNS resolution helped me connect networking theory to real attacker and defender behavior.
 
-That pattern — observe → question → investigate → test — is how I’m approaching everything.
+Observe > question > investigate > test is how I’m approaching everything.
 
 ---
 
@@ -95,7 +95,9 @@ Most importantly:
 
 Security competence grows through iteration and reflection, not shortcuts.
 
-## In the rearview
+---
+
+## In the Rearview
 
 - Obtained my Network+ Certification
 - Learning the basics from TryHackMe
