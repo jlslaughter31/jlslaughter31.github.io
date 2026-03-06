@@ -1,9 +1,3 @@
-What was this room about? Firewalls. Different Types: Stateless, Stateful, NGFW, Proxy; linux firewalls: iptables, nftables, firewalld, ufw| Intro to IDS HIDS, NIDS, Detection Types: Anomaly based, Hybrid, and Signature Based.| Vulnerability Scanners and the tools used in Vulnerability Scanning
-What problem does this concept solve? Firewalls provide traffic filtering for an organizations network, filtering traffic based on rules. Gives control over network traffic| intrusion Detection Systems flag traffic in your host or network based on rules, signatures, or anomalies from regular usage patterns and issue an alert. Provides security to hosts or networks.| Vulnerability Scans can help to patch hardware or software that has bugs or vulnerabilities.
-What new terms or tools did I see? Authenticated vs. Unauthenticated, Internal vs. External. CVSS (Common Vulnerability Scoring System)
-What confused me at first? Authenticated vs. Unauthenticated, Internal vs. External.
-What would I check if I were investigating this? Is my firewall up to date- are there rules that I should be updating based on recent attacks| If I'm using Snort, is the local.rules file configured properly for the type of traffic I am trying to detect?|
-Why does this matter to defenders? Firewalls can prevent threat actors from accessing the network in the first place, as long as rules are sufficiently applied| IDSystems like Snort can help secure your system|
 ---
 layout: post
 title: "Security Solutions: Firewalls, IDS, and Vulnerability Scanners"
